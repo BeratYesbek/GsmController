@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#fff"
+    android:layout_gravity="center | center_vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnOutPutUp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="Run Engine"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/custom_button_yellow">
+    </Button>
+    <Button
+        android:id="@+id/btnOutPutDown"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:text="Stop Engine"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/custom_buttong_gray">
+    </Button>
+
+    <Button
+        android:id="@+id/btnRunEngine"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="Run Engine"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/custom_button_yellow">
+    </Button>
+    <Button
+        android:id="@+id/btnStopEngine"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:text="Stop Engine"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/custom_buttong_gray">
+    </Button>
+
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_buttong_gray"
+        android:text="On">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Close"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@drawable/custom_button_yellow">
+    </Button>
+
+</LinearLayout>
